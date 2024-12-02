@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sistem Informasi Pendaftaran  NAWP</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistem Informasi Pendaftaran NAWP</h1>
+        <form>
+            <label for="nik">NIK</label>
+            <input type="text" id="nik" name="nik" required>
+
+            <label for="nama">NAMA</label>
+            <input type="text" id="nama" name="nama" required>
+
+                    <label for="jenis-kelamin">Jenis Kelamin</label>
+            <select id="jenis-kelamin" name="jenis-kelamin">
+                <option value="laki-laki">-</option>
+                <option value="laki-laki">Laki-laki</option>
+                <option value="perempuan">Perempuan</option>
+            </select>
+
+            <label for="kabupaten">Kabupaten/Kota</label>
+            <input type="text" id="kabupaten" name="kabupaten" required>
+
+            <label for="alamat">Alamat</label>
+            <input type="text" id="alamat" name="Alamat" required>
+
+            <label for="nomor-polisi">NOMOR POLISI</label>
+            <input type="text" id="nomor-polisi" name="nomor-polisi" required>
+
+            <label for="jenis-kendaraan">JENIS KENDARAAN</label>
+            <input type="text" id="jenis-kendaraan" name="jenis-kendaraan" required>
+
+            <label for="ktp">Inputkan KTP:</label>
+            <div class="file-upload">
+                <input type="file" id="ktp" name="ktp" required>
+                <label for="ktp"></label>
+            </div>
+
+            <label for="stnk">Inputkan STNK:</label>
+            <div class="file-upload">
+                <input type="file" id="stnk" name="stnk" required>
+                <label for="stnk"></label>
+            </div>
+
+            <label for="no_antrian">No Antrian</label>
+            <input type="text" id="no_antrian" name="no_antrian" required>
+
+            <div class="button-container">
+                <button type="submit">SIMPAN</button>
+                <button type="button">LIHAT ANTRIAN</button>
+                <button type="button">HALAMAN UTAMA</button>
+            </div>
+        </form>
+        <div>
+</body>
+</html>
